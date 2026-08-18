@@ -9,3 +9,7 @@ jobs:
     steps:
       - name: Test
         run: echo "GitHub Actions يعمل بنجاح"
+- name: Check system
+  run: |
+    uname -a
+    cat /etc/os-release
